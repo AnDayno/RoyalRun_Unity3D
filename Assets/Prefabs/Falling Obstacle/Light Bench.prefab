@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light Bench
       objectReference: {fileID: 0}
+    - target: {fileID: 6034887517679278023, guid: 41f6dacffa2a5bb438dfaf5f4967b6d2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7632908455358500513, guid: 41f6dacffa2a5bb438dfaf5f4967b6d2, type: 3}
       propertyPath: m_Mass
       value: 2
