@@ -714,7 +714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score
+  m_text: Score:0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1380,6 +1380,7 @@ MonoBehaviour:
   cameraController: {fileID: 1479597527}
   chunkPrefab: {fileID: 8262549270242926935, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
   chunkParent: {fileID: 1907991695}
+  scoreManager: {fileID: 367913769}
   startingChunksAmount: 12
   chunkLength: 10
   moveSpeed: 8
