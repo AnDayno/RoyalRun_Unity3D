@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     bool gameOver = false;
     float timeLeft;
 
+    public bool GameOver => gameOver;
+
     void Start()
     {
         timeLeft = startTime;
@@ -35,13 +37,13 @@ public class GameManager : MonoBehaviour
 
         if (timeLeft <= 0f)
         {
-            GameOver();
+            PlayerGameOver();
         }
 
         return true;
     }
 
-    void GameOver()
+    void PlayerGameOver()
     {
         gameOver = true;
         gameOverText.SetActive(true);
