@@ -20,6 +20,8 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] float maxMoveSpeed = 20f;
     [SerializeField] float minGravityZ = -22f;
     [SerializeField] float maxGravityZ = -2f;
+    [Tooltip("This remove chunk when get past the camera")]
+    [SerializeField] float removeChunkBuffer = 20f;
 
     int numOfChunksSpawned = 0;
 
@@ -117,7 +119,7 @@ public class LevelGenerator : MonoBehaviour
             GameObject chunk = chunks[i];
             chunk.transform.Translate(transform.forward * (-moveSpeed * Time.deltaTime));
 
-            if (chunk.transform.position.z <= Camera.main.transform.position.z - chunkLength)
+            if (chunk.transform.position.z <= Camera.main.transform.position.z - removeChunkBuffer)
             {
                 chunks.Remove(chunk);
                 Destroy(chunk);
