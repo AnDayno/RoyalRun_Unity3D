@@ -43,6 +43,12 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
+    public void IncreaseTime(float amount)
+    {
+        if (gameOver) return;
+        timeLeft += amount;
+    }
+
     void PlayerGameOver()
     {
         gameOver = true;

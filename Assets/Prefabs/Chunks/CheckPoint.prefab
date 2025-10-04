@@ -237,10 +237,54 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7581541729217645712, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8523905179915455450}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8262549270242926935, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4287103088653761990}
+    - targetCorrespondingSourceObject: {fileID: 8262549270242926935, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5060830664835883563}
   m_SourcePrefab: {fileID: 100100000, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
 --- !u!4 &462387537348850587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7581541729217645712, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
   m_PrefabInstance: {fileID: 8024771370056384267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2159422985122963036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8262549270242926935, guid: 14b305d4d2601ee438bc9b92f3939a7a, type: 3}
+  m_PrefabInstance: {fileID: 8024771370056384267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4287103088653761990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159422985122963036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a28d440c3de9b49acb8c4eee5c56c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Checkpoint
+--- !u!65 &5060830664835883563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2159422985122963036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.931536, y: 5.312714, z: 1}
+  m_Center: {x: 0.12589931, y: 3.17891, z: 0}
